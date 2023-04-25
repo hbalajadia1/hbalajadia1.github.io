@@ -35,11 +35,11 @@
 <html>
   <head>
     <link rel="stylesheet" type="text/css" href="styles.css">
-    <title>Lab Activity 7 | Department Department Form</title>
+    <title>Web Project 5 | Department Department Form</title>
   </head>
   <body>
       <h1>Edit an Existing Department</h1>
-      <p>Click <a href="/labactivity7/list_departments.php">here</a> to see the list of departments</p>
+      <p>Click <a href="list_departments.php">here</a> to see the list of departments</p>
     <form action="edit_department.php" method="post">
     <table id="department">
       <tr>

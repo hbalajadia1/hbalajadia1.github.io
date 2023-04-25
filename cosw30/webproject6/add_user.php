@@ -8,7 +8,7 @@
       */
     ?>
     <link rel="stylesheet" type="text/css" href="styles.css">
-    <title>Web Project 5 | User Registration Form</title>
+    <title>Web Project 6 | User Registration Form</title>
   </head>
   <body>
       <h1>Register for Website</h1>

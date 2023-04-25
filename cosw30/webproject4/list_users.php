@@ -12,8 +12,8 @@
   require('db.php');
   
   
-  echo '<p>Click <a href="/webproject4/list_departments.php">here</a> to see the list of departments</p>';
-  echo '<p>Click <a href="/webproject4/user_registration.php">here</a> to register as a new user</p>';
+  echo '<p>Click <a href="list_departments.php">here</a> to see the list of departments</p>';
+  echo '<p>Click <a href="user_registration.php">here</a> to register as a new user</p>';
   $query = "select * from user";
 
   $result = mysqli_query($connection, $query);

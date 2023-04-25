@@ -9,7 +9,7 @@
     <!-- <link rel = "preconnect" href = "https://fonts.googleapis.com"> -->
     <!-- <link rel = "preconnect" href = "https://fonts.gstatic.com" crossorigin> -->
     <!-- <link href = "https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel = "stylesheet"> -->
-    <title>Lab Activity 7 | List of Departments</title>
+    <title>Web Project 5 | List of Departments</title>
 </head>
 <body>
     <h1>List of Departments</h1>
@@ -17,8 +17,8 @@
         if (isset($_GET['msg'])) {
             echo "<h4>Your record has been updated.</h4>";
         }
-        echo '<p>Click <a href="/webproject5/add_department.php">here</a> to add a new department</p>';
-        echo '<p>Click <a href="/webproject5/list_users.php">here</a> to see the list of users</p>';
+        echo '<p>Click <a href="add_department.php">here</a> to add a new department</p>';
+        echo '<p>Click <a href="list_users.php">here</a> to see the list of users</p>';
         echo '<table id=departments>';
         echo "<tr><th>Department Name</th><th>Number of Employees</th><th>Building Name</th><th>Status</th><th>Actions</th></tr>";
         while ($row = mysqli_fetch_assoc($result)) {

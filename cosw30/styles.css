@@ -1,0 +1,22 @@
+.card {
+    margin: 0 auto;
+    /* Added */
+    float: none;
+    /* Added */
+    margin-bottom: 10px;
+    /* Added */
+}
+
+.row {
+    margin: 0 auto;
+    /* Added */
+    float: none;
+    /* Added */
+    margin-bottom: 10px;
+    /* Added */
+}
+
+.scrollbox {
+    overflow-y: auto;
+    max-height: 200px;
+}

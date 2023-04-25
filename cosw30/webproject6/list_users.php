@@ -11,8 +11,7 @@
 <?php
   require('db.php');
   
-  echo '<p>Click <a href="/webproject6/list_departments.php">here</a> to see the list of departments</p>';
-  echo '<p>Click <a href="/webproject6/add_user.php">here</a> to add a new user</p>';
+  echo '<p>Click <a href="add_user.php">here</a> to add a new user</p>';
   
   if (isset($_GET['msg'])) {
             echo "<h4>Your record has been updated.</h4>";

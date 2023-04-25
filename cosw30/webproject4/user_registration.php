@@ -12,7 +12,7 @@
   </head>
   <body>
       <h1>Register for Website</h1>
-      <p>Click <a href="/webproject4/list_users.php">here</a> to see the list of users</p>
+      <p>Click <a href="list_users.php">here</a> to see the list of users</p>
     <form action="process_registration.php" method="post">  
       <p>First name: <input type="text" name="firstname" required></p>   
       <p>Last name: <input type="text" name="lastname" required></p>

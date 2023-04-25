@@ -1,0 +1,46 @@
+<html>
+  <head>
+    <title>Lorem Ipsum Generator</title>
+  </head>
+  <body>
+    <?php
+      # setting total_words for testing purposes - need to create form input
+      $total_words = rand(5, 15);
+
+      # debugging so i can test that I am getting the correct number of words
+      echo $total_words . "<br>";
+
+      # create array with at least 100 words - mine only has 40. Be sure to include other common sentence words
+      $word_list = array("sunny", "rainy", "windy", "clear skies", "and", "or", "weather", "the", "snow", "showers", "blue", "grey", "hot", "cold", "stay inside", "overcast", "blinding", "frigid", "sunlight", "be", "a", "I", "you", "climate change", "summer", "spring", "fall", "winter", "barometric pressure", "temperature", "cyclone", "global warming", "rain", "mixture", "storm", "lightning", "thunder", "tornado", "it", "do", "that");
+
+      # find out the total number of items in my list to use for my random index picker
+      $tot_word_list = count($word_list);
+
+      # initialize my sentence to nothing before i start creating it
+      $this_sentence = "";
+      $x = 0;
+
+      # now loop through the $total_words amount of times to create random words from my array
+      while($x < $total_words) {
+
+      #randomly select an array index to PICK a word from our word list
+      # note that I am subtracting one since the word count is 1 more than the index since we start at 0
+      $this_index = (rand(0,($tot_word_list-1)));
+
+      # this is for debugging/dev only so I can see the program working
+      echo "The index is $this_index and the word is: " . $word_list[$this_index] . "<br>";
+
+      # add the new string onto the existing string 
+      $this_sentence = $this_sentence . " " . $word_list[$this_index];
+
+      #increment our loop counter
+      $x++;
+      }
+
+      # using two string functions here - trim which will remove any white space from the beginning or end of the string
+      # and ucfirst which will capitalize the first letter. Note that I am also add a period at the end.
+      echo "<p>Formatted sentence : " . ucfirst(trim($this_sentence)) . ".</p>";
+
+      ?> 
+  </body>
+</html>

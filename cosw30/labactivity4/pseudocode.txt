@@ -1,0 +1,28 @@
+Happy Birthday
+1. Ask for birth year
+2. Get current year
+3. Subtract birth year from current year and save to counter
+4. Print "Happy Birthday"
+5. Reduce the counter by one
+6. Repeat steps 4-5 until counter is at 0
+
+Bucket List
+1. Get a list of 10 bucket list activities
+2. Start a counter at 1
+3. Print one of the bucket list items
+4. Increase the counter by 1
+5. Repeat steps 2-4 until there are three bucket list items
+
+Random Sentence Generator
+1. Assemble an array of the first 15 top words
+2. Create an array of 15 words related to a particular topic 3. Create an array of all of the words in one array
+4. Generate the number of random sentences to be created in the paragraph; start a counter
+5. Generate the number of words in each sentence
+6. For each sentence
+7. For the nunber of random words in each sentence
+8. Print the first word as a capital
+9. A period after the last word with a space or
+10. And a space between each word that is not the last
+11. Change the random number of words in each sentence
+12. Increase the counter of sentences by 1
+13. Repeat until all sentences are printed

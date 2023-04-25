@@ -1,0 +1,16 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  padding: 5em 10em 10em 10em;
+}
+
+button {
+  font-family: 'Montserrat', sans-serif;
+  border-radius: 2px;
+}
+
+button:hover {
+  border-radius: 2px;
+  background-color: red;
+  color: white;
+}

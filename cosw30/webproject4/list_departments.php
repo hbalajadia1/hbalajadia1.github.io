@@ -9,8 +9,8 @@
 <body>
 <h1>List of Departments</h1>
 <?php
-  echo '<p>Click <a href="/webproject4/list_users.php">here</a> to see the list of users</p>';
-  echo '<p>Click <a href="/webproject4/department_registration.php">here</a> to register a new department</p>';
+  echo '<p>Click <a href="list_users.php">here</a> to see the list of users</p>';
+  echo '<p>Click <a href="department_registration.php">here</a> to register a new department</p>';
   
   require('db.php');
 

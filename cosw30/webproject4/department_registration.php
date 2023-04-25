@@ -12,7 +12,7 @@
   </head>
   <body>
       <h1>Register a New Department</h1>
-      <p>Click <a href="/webproject4/list_departments.php">here</a> to see the list of departments</p>
+      <p>Click <a href="list_departments.php">here</a> to see the list of departments</p>
     <form action="process_department.php" method="post">  
       <p>Department Name: <input type="text" name="departmentname" required></p>   
       <p>Number of Employees: <input type="text" name="numofemployees" required></p>

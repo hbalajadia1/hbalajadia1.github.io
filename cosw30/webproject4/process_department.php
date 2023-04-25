@@ -19,6 +19,6 @@ $building_name = $_POST['buildingname'];
 $query = "INSERT INTO `department` (`department_name`, `num_of_employees`, `building_name`) VALUES ('$department_name', '$num_of_employees', '$building_name')";
     mysqli_query($connection, $query);
     echo "<p>Congrats! You have successfully registered the $department_name.</p>\n";
-    echo "<p>Return to the <a href=\"\webproject4\department_registration.php\">department registration</a> page.</p>";
+    echo "<p>Return to the <a href=\"department_registration.php\">department registration</a> page.</p>";
 ?>
 </html>

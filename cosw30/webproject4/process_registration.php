@@ -21,9 +21,9 @@ if ($password == $confirmedpassword) {
     $query = "INSERT INTO `user` (`first_name`, `last_name`, `password`, `user_type`, `create_date`) VALUES ('$firstname', '$lastname', '$password', 'U', CURRENT_TIMESTAMP)";
     mysqli_query($connection, $query);
     echo "<p>Congrats, $firstname $lastname! You have successfully registered.</p>\n";
-    echo "<p>Return to the <a href=\"\webproject4\user_registration.php\">user registration</a> page.</p>";
+    echo "<p>Return to the <a href=\"user_registration.php\">user registration</a> page.</p>";
 } else {
-   echo "<p>Your password does not match in both fields. <a href=\"\webproject4\user_registration.php\">Try again</a></p>\n";
+   echo "<p>Your password does not match in both fields. <a href=\"user_registration.php\">Try again</a></p>\n";
 }
 ?>
 </html>

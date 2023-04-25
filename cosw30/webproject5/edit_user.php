@@ -45,7 +45,7 @@
   </head>
   <body>
       <h1>Edit an Existing User</h1>
-      <p>Click <a href="/webproject5/list_users.php">here</a> to see the list of users</p>
+      <p>Click <a href="list_users.php">here</a> to see the list of users</p>
     <form action="edit_user.php" method="post">
     <table id="user">
       <tr>
